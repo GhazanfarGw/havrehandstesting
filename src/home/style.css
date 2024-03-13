@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./brolink.otf') format('opentype');
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #161A1E;
+    scroll-behavior: smooth;
+}
+
+.background-image {
+  background-image: url(../../public/Upper-element.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: cover;
+  height: 100vh;
+  transition: background-size 1ms ease-in;
+  scroll-behavior: smooth;
+}
+
+.Main-home-page-banner {
+background-image: url(../../public//Main-home-page-banner.png);
+background-position: center;
+background-repeat: no-repeat;
+z-index: 0;
+background-size: cover;
+height: 100vh;
+scroll-behavior: smooth;
+
+}
